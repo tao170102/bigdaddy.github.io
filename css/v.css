@@ -1,0 +1,471 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.form input[type=submit] {
+    background-color: #b20a39;
+    width: 80%;
+    max-width: 280px;
+    border-radius: 20px;
+    border: 5px solid #b20a39;
+    color: #fff;
+}
+
+.mobile-show {
+    display: none;
+}
+
+.strip-club .modal-body {
+    background: rgba(0, 0, 0, .1);
+    color: #fff;
+}
+
+.strip-club .modal-wrap .modal {
+    border: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, .6);
+    max-width: 50%;
+}
+
+.strip-club-entrance-container-form {
+    align-items: center;
+}
+
+.mobile-hide {
+    display: block;
+}
+
+.body-tag {
+    background-color: #040507;
+    margin: 0;
+    font-family: arial, sans-serif;
+    position: relative;
+}
+
+.main-background-image {
+    position: absolute;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.model-image {
+    width: 350px;
+}
+
+.model-image.right {
+    margin-right: 3%;
+}
+
+.guys.model-image.right {
+    margin-right: 5%;
+}
+
+.guys.model-image.left {
+    margin-left: 3%;
+}
+
+.model-image.left {
+    margin-left: 7%;
+}
+
+.center-content {
+    width: 45%;
+    margin: 0 auto;
+    align-self: flex-start;
+    text-align: center;
+}
+
+.no-cover-sign {
+    width: 100%;
+    max-width: 350px;
+}
+
+.logo-camdolls {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    max-width: 150px;
+    background-color: #000;
+}
+
+.question-container {
+    background-image: url('images/1.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5px 10px;
+    margin: 10px 10% 0 10%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.question,
+.animate-bar-text {
+    color: #e0ddd5;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.animate-bar-text {
+    margin: 5px 0;
+}
+
+.current-question-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 150px;
+    padding: 10px 0;
+    margin: 10px auto;
+}
+
+.question-button-container {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: 15px auto;
+}
+
+.question-button {
+    padding: 10px 50px;
+    font-size: 18px;
+    color: #d4cebf;
+    text-decoration: none;
+    transition: opacity .3s ease-in-out;
+}
+
+.question-button:hover {
+    opacity: .7;
+}
+
+.yes-button {
+    background-color: #b20a39;
+}
+
+.no-button,
+.agree-button {
+    background-color: #c0106f;
+}
+
+.agree-button {
+    background-color: #b20a39;
+}
+
+.current-question {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #3c3a42;
+}
+
+.current-question.active {
+    background-color: #00a7e1;
+}
+
+/* New Include Form */
+#registration_form .icon-container,
+#registration_form .show-password-checkbox {
+    top: 18px !important;
+}
+
+#registration_form .show-password-checkbox {
+    left: auto !important;
+}
+
+#registration_form span.error {
+    position: relative !important;
+    float: none !important;
+    max-width: 100% !important;
+    margin: 10px 0 !important;
+    border-radius: 2em !important;
+    text-align: center !important;
+}
+
+#registration_form span.error:after {
+    display: none;
+}
+
+#registration_form #nick_name_username_strength.error.greenError {
+    background: transparent !important;
+    padding: 0!important;
+    margin: 0!important;
+    position: absolute !important;
+}
+
+#registration_form .show-suggested-usernames .suggested-names-container {
+    float: none;
+    display: block;
+    position: relative;
+    top: -10px;
+    border: 1px solid #e3e4e9;
+    border-top: 0;
+    border-radius: 2em;
+    color: #eee;
+    z-index: 2;
+    width: 100%;
+    left: 0;
+    background: #f3f3f3;
+    text-align: left;
+}
+
+#registration_form .close-suggested-names-container {
+    background: #f3f3f3;
+    color: #444;
+}
+
+body:not(.whitelabel) .suggested-username {
+    font-size: 12px;
+    color: #444;
+    padding: 10px;
+    border-bottom: 1px solid #e3e4e9;
+}
+
+body:not(.whitelabel) .suggested-names-container h4 {
+    font-size: 12px;
+}
+
+body:not(.whitelabel) .suggested-username:hover {
+    background: #ccc;
+    color: #444;
+}
+
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model-video {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.footer-image {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.model-sign-image {
+    width: 100%;
+    margin-top: -10px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.mobile-footer {
+    display: none;
+}
+
+.disclaimer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 5px;
+    font-size: 12px;
+}
+
+.disclaimer-copyright,
+.disclaimer-link,
+.disclaimer-link:active,
+.disclaimer-link:visited {
+    color: #c9c7cd;
+}
+
+.disclaimer-link {
+    text-decoration: underline;
+}
+
+.status-back {
+    background: #333;
+    position: relative;
+}
+
+.status-back-bar {
+    background: linear-gradient(to right, #b20a39, #f1104f);
+    border: 5px solid #492d3c;
+}
+
+.current-percent {
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.strip-club-entrance-btn {
+    background: #00a9e7;
+    color: white;
+    font-weight: normal;
+    padding: 5px 0px;
+    border: solid 5px #00a9e7;
+    width: 40%;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.question-container .twitter-follow-button {
+    position: absolute !important;
+    bottom: 15px;
+    right: 15px;
+}
+
+@media (max-width: 1400px) {
+    .no-button {
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .model-image {
+        width: 280px;
+    }
+
+    .center-content {
+        width: 35%;
+    }
+
+    .no-button {
+        position: relative;
+        right: 0px;
+    }
+
+    .question {
+        margin: 5px;
+    }
+
+    .question-button-container {
+        margin: 25px auto;
+        width: 100%;
+    }
+}
+
+.body-tag {
+        background-image: url('https://cdn1.vscdns.com/images/entrance/camster-home-strip/camster-strip-background-mobile-2.jpg');
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 440px;
+        margin-left: auto;
+        margin-right:auto;
+    }
+
+    .model-image {
+        display: none;
+    }
+
+    .main-content {
+        display: block;
+    }
+
+    .center-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .main-background-image {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: block;
+    }
+
+    .mobile-image {
+        width: 100%;
+    }
+
+    .question-button-container {
+        width: 300px;
+    }
+
+    .disclaimer {
+        position: static;
+    }
+
+    .question {
+        font-size: 16px;
+    }
+footer {
+z-index: 99;
+width: 100%;
+height: 1.4rem;
+position: fixed;
+bottom: 0;
+left: 50%;
+background-color: rgba(0,0,0,.8);
+padding: 0 .18rem;
+max-width: 10rem;
+-webkit-transform: translateX(-50%);
+-moz-transform: translateX(-50%);
+-ms-transform: translateX(-50%);
+transform: translateX(-50%);
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+footer img {
+width: 1rem;
+height: 1rem;
+margin: .2rem .2rem 0 0;
+float: left;
+}
+
+footer p {
+float: left;
+padding-top: .24rem;
+}
+
+footer p span {
+display: block;
+max-width: 7rem;
+overflow: hidden;
+-o-text-overflow: ellipsis;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+
+footer p span:first-child {
+color: #fff;
+font-size: .38rem;
+}
+
+footer p span:nth-child(2) {
+font-size: .3rem;
+color: #ccc;
+}
+
+
+
+
+.flex-between {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+button,div,footer,h1,h2,h3,h4,h5,h6,li,p {
+margin: 0;
+padding: 0;
+}
